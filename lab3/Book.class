@@ -1,0 +1,22 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class Book {
+   String name;
+   String author;
+   double price;
+   int num_pages;
+
+   Book(String var1, String var2, double var3, int var5) {
+      this.name = var1;
+      this.author = var2;
+      this.price = var3;
+      this.num_pages = var5;
+   }
+
+   public String getName() {
+      return this.name;
+   }
+
+   public String toString() {
+      return "Book Name " + this.name + " Author " + this.author + " Price " + this.price;
+   }
+}
